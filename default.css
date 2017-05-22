@@ -1,0 +1,198 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+/* Elements */
+
+body {
+	background: #b6ced8;
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+}
+caption
+{
+	font-size: 6px;
+	color: #7b9dab;
+	margin-left:auto;
+}
+
+h2, h3 {
+	margin-top: 0px;
+	color: #7b9dab;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3 {
+	margin: 0;
+	font-weight:bold;
+	font-size: 12px;
+}
+
+h4, h5, h6 {
+}
+
+p, ol, ul, dl, blockquote {
+	margin-top: 0;
+}
+
+a {
+	color: #7B9DAB;
+}
+
+selected {
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* Header */
+
+#header {
+	width: 534px;
+	height: 78px;
+	margin: 0 auto;
+	background: url(images/img1.gif);
+}
+
+#header h1 {
+	float: left;
+	margin: 0;
+	padding: 25px 0 0 20px;
+	font-size: 20px;
+	font-family: Helvetica, sans-serif;
+}
+
+#header h2 {
+	float: right;
+	margin: 0;
+	padding: 45px 20px 0 0;
+	font-size: 14px;
+}
+
+#header a {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Menu */
+
+#menu {
+	width: 514px;
+	height: 30px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background: url(images/img3.gif);
+}
+
+#menu ul {
+	width: 514px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	background: #7b9dab;
+	list-style: none;
+}
+
+#menu li {
+	float:left;
+}
+
+#menu a {
+	float: left;
+	padding: 8.5px 15px 8.5px 15px;
+	border-left: 1px solid #666666;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#selected {
+	float: left;
+	padding: 8.5px 15px 8.5px 15px;
+	border-left: 1px solid #666666;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	background: #CCCCCC;
+	color: #000000;
+}
+
+#menu a:hover {
+	background: #CCCCCC;
+	color: #000000;
+}
+
+#menu .first a {
+	border: none;
+	color: #000;
+}
+
+/* Splash */
+
+#splash {
+	width: 514px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background: url(images/img3.gif);
+}
+
+/* Content */
+
+#content {
+	width: 514px;
+	margin: 0 auto;
+	padding: 10px 10px 0 10px;
+	background: url(images/img3.gif);
+}
+
+#photoContent {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 10px 10px 0 10px;
+}
+
+
+#colOne {
+	float: right;
+	width: 299px;
+	padding: 0 15px 0 0;
+}
+
+#colTwo {
+	float: left;
+	width: 160px;
+	padding: 0 0 0 15px;
+}
+#colWide {
+	float: left;
+	width: 485px;
+	padding: 0 25px 0 15px;
+}
+
+/* Footer */
+
+#footer {
+	width: 534px;
+	height: 30px;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
+	background: url(images/img4.gif) no-repeat;
+}
+
+#footer p {
+	margin: 0px;
+	text-align: center;
+	color: #7b9dab;
+}
